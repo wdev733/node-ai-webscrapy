@@ -2,9 +2,9 @@
   "name": "node-ai-webscrapy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/aaa-asphalt.js",
+    "start": "node src/aamsco.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
