@@ -1,0 +1,25 @@
+{
+  "name": "node-ai-webscrapy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/aaa-asphalt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdev733/node-ai-webscrapy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdev733/node-ai-webscrapy/issues"
+  },
+  "homepage": "https://github.com/wdev733/node-ai-webscrapy#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
