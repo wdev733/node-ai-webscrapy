@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/service/scrape/index.js"],"names":["fetchHtml","scrapeWebsite"],"mappings":";;;;;;;AAAA;;;;AACA;;;;;;QAESA,S,GAAAA,e;QAAWC,a,GAAAA,gB","file":"index.js","sourcesContent":["import fetchHtml from './fetch';\nimport scrapeWebsite from './scrape';\n\nexport { fetchHtml, scrapeWebsite }"]}

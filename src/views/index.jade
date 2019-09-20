@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1 Web Scrapper
+  hr
+  
+  ul
+    li 4starelectronics.com
+    li A1Locksmith.com
+    li aaa-asphalt.com
+    li aamsco.net
+    li accnjinc.com
+    li accufleet.com
+    li barroneq.com
+    li beaconecon.com
+    li calibrationspecialty.com
+    li kirbybuilt.com
+  
+  form(method='post', action='/')
+    .form-group
+      input.form-control(type='text', name='url', placeholder='URL for Scraping')
+    button.btn.btn-primary(type='submit') Scrape!

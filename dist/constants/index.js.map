@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/constants/index.js"],"names":["pattern"],"mappings":";;;;;;;AAAA;;;;;;QAESA,O,GAAAA,iB","file":"index.js","sourcesContent":["import pattern from './pattern';\n\nexport { pattern }"]}

@@ -1,0 +1,43 @@
+extends layout
+
+block content
+  h1 Result
+  hr
+  form.form-horizontal(method='post', action='/')
+    .form-group
+      label.col-2.control-label Name
+      label.col-10.control-label
+        !{data.data.name}
+    .form-group
+      label.col-2.control-label Logo
+      label.col-10.control-label
+        !{data.data.logo}
+        br
+        img(src=data.data.logo, width=200, style='margin-top:10px;')
+    .form-group
+      label.col-2.control-label Twitter
+      label.col-10.control-label
+        !{data.data.twitter}
+    .form-group
+      label.col-2.control-label Facebook
+      label.col-10.control-label
+        !{data.data.facebook}
+    .form-group
+      label.col-2.control-label Linkedin
+      label.col-10.control-label
+        !{data.data.linkedin}
+    .form-group
+      label.col-2.control-label Telephone
+      label.col-10.control-label
+        each val in data.data.telephone
+          p= val
+    .form-group
+      label.col-2.control-label Email
+      label.col-10.control-label
+        each val in data.data.email
+          p= val
+    .form-group
+      label.col-2.control-label Description
+      label.col-10.control-label
+        each val in data.data.description
+          p= val
