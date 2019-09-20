@@ -1,6 +1,6 @@
-const getSiteHtml = require('./utils/scraper');
+const getSiteHtml = require('../utils/scraper');
 
-const siteUrl = "https://accufleet.com";
+const siteUrl = "https://AAAFIREUTAH.COM";
 
 const request = getSiteHtml(siteUrl);
 

@@ -1,6 +1,6 @@
-const getSiteHtml = require('./utils/scraper');
+const getSiteHtml = require('../utils/scraper');
 
-const siteUrl = "https://www.a-1sewerandsepticservice.com";
+const siteUrl = "https://absoluteaviation.com";
 
 const request = getSiteHtml(siteUrl);
 
